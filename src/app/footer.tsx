@@ -85,7 +85,7 @@ const SocialLink = styled.a`
 `
 
 const CNPJ = styled.p`
-  color: ${theme.colors.gray30};
+  color: ${theme.colors.emerald50};
   font-size: ${theme.fonts.sizes.textXs};
 `
 

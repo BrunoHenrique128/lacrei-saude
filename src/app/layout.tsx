@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={nunito.className}>
         <StyledComponentsRegistry>
-          <Header />
+          
           <main>{children}</main>
           <Footer />
         </StyledComponentsRegistry>

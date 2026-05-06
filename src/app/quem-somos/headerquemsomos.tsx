@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 const HeaderWrapper = styled.header`
-  background: rgba(255, 255, 255, 0.2);
+  background: ${theme.colors.gradientSubtle};
   border-bottom: 1px solid ${theme.colors.emerald20};
   padding: 0 ${theme.spacing.xl};
   height: 72px;
@@ -16,8 +16,6 @@ const HeaderWrapper = styled.header`
   position: sticky;
   top: 0;
   z-index: 100;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
 
   @media (max-width: 768px) {
     padding: 0 ${theme.spacing.sm};
