@@ -1,10 +1,8 @@
 import type { Metadata } from 'next'
 import { Nunito } from 'next/font/google'
 import StyledComponentsRegistry from '@/app/registry'
-import Header from '@/app/header'
 import Footer from '@/app/footer'
-
-const nunito = Nunito({ subsets: ['latin'] })
+import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Lacrei Saúde',
@@ -18,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={nunito.className}>
+      <body>
         <StyledComponentsRegistry>
           
           <main>{children}</main>
