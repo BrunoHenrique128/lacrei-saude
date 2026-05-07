@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lacrei Saúde - Desafio Técnico Front-end
 
-## Getting Started
+## 📋 Sobre o projeto
+Aplicação desenvolvida como desafio técnico para o programa de voluntariado da Lacrei Saúde, seguindo o Marsha Design System.
 
-First, run the development server:
+## 🚀 Como rodar localmente
 
+### Pré-requisitos
+- Node.js 18+
+- npm
+
+### Instalação
 ```bash
+git clone https://github.com/SEU_USUARIO/lacrei-saude
+cd lacrei-saude
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acessa http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Build e Deploy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Build local
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+### Deploy
+O projeto está hospedado na Vercel:
+🔗 [Link do deploy aqui]
 
-To learn more about Next.js, take a look at the following resources:
+## 🧪 Testes
+```bash
+npx jest
+```
+Componentes testados:
+- Header (logo, navegação e botão Entrar)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ↩️ Rollback
+Para restaurar uma versão anterior na Vercel:
+1. Acessa o dashboard da Vercel
+2. Clica em **Deployments**
+3. Escolhe a versão anterior
+4. Clica em **Redeploy**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Tecnologias
+- Next.js 15 + TypeScript
+- Styled-Components
+- Jest + Testing Library
